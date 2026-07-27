@@ -1,0 +1,125 @@
+{
+  "environment": {
+    "python": "3.14.4",
+    "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "machine": "arm64"
+  },
+  "sizes": [
+    100,
+    500,
+    1000,
+    5000,
+    10000
+  ],
+  "local_hash_us_per_decision_mean": [
+    4.07266803085804,
+    4.082100396044552,
+    4.0925498004071414,
+    4.111158360028639,
+    4.127150839776732
+  ],
+  "local_hash_us_per_decision_stdev": [
+    0.4839862659799387,
+    0.39476109200699827,
+    0.0602814892247619,
+    0.058489645375691054,
+    0.026626148079768958
+  ],
+  "local_ed25519_ms_per_decision_mean": [
+    0.146120970021002,
+    0.14727422269061208,
+    0.14728684733078504,
+    0.1480311138671823,
+    0.147724958366598
+  ],
+  "local_ed25519_ms_per_decision_stdev": [
+    0.002460271193473327,
+    0.0007848046871793832,
+    0.000695109443640525,
+    0.00096302990531157,
+    0.00027540958852145195
+  ],
+  "modeled_dual_remote_kms_ms": 24.0,
+  "modeled_kms_rtt_ms_each": 12.0,
+  "modeled_kms_note": "Illustrative RTT model only; NOT measured against AWS/GCP/Azure KMS.",
+  "verify_ms_mean": [
+    31.656525004655123,
+    157.7741167973727,
+    318.8961250067223,
+    1592.3821420001332,
+    3201.9863999972586
+  ],
+  "merkle_build_ms_mean": [
+    0.0541499990504235,
+    0.24250000133179128,
+    0.44827519450336695,
+    2.318933210335672,
+    4.6317920030560344
+  ],
+  "flat_export_bytes": [
+    15520,
+    77600,
+    155200,
+    776000,
+    1552000
+  ],
+  "selective_bytes": [
+    766,
+    916,
+    991,
+    1216,
+    1291
+  ],
+  "attack_trials": 100,
+  "naive_edit_detected_local": 100,
+  "suffix_rewrite_detected_local": 0,
+  "suffix_rewrite_detected_anchor": 100,
+  "deletion_detected_local": 0,
+  "deletion_detected_anchor": 100,
+  "epoch_sizes": [
+    1,
+    10,
+    50,
+    100,
+    500,
+    1000
+  ],
+  "undetectable_rewrite_window_decisions": [
+    1,
+    10,
+    50,
+    100,
+    500,
+    1000
+  ],
+  "batch_ks": [
+    1,
+    10,
+    50,
+    100
+  ],
+  "batch_sign_ms_per_decision": [
+    0.1471654723281972,
+    0.019266236321224522,
+    0.007711374996385227,
+    0.006150555331259966
+  ],
+  "cadence_detect_rate_local": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cadence_detect_rate_vs_prior_anchor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "cadence_trials_per_epoch": 30
+}
