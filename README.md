@@ -1,6 +1,6 @@
-# Verifiable Hiring Recorder (Anonymous Artifact)
+# Verifiable Hiring Recorder 
 
-Research prototype accompanying an anonymous ACM FAccT submission on tamper-evident audit architecture for AI employment screening.
+Research prototype accompanying the submission on tamper-evident audit architecture for AI employment screening.
 
 ## Scope (honest)
 
