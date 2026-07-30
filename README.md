@@ -2,7 +2,7 @@
 
 Research prototype accompanying the submission on tamper-evident audit architecture for AI employment screening.
 
-## Scope (honest)
+## Scope
 
 | Property | Status |
 |----------|--------|
